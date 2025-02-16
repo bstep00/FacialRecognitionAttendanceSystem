@@ -1,0 +1,48 @@
+ 
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables and credentials
+.env
+config.py
+instance/
+firebase-adminsdk.json  # Firebase service account key
+
+# Ignore logs
+*.log
+logs/
+debug.log
+
+# Ignore Python dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Flask cache files
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# Ignore database files (if using SQLite locally)
+*.sqlite3
+db.sqlite3
+
+# Ignore node_modules and build files (for frontend)
+frontend/node_modules/
+frontend/build/
+
+# Ignore generated coverage reports
+coverage/
+.coverage
+*.cover
+htmlcov/
+
+# Ignore editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
