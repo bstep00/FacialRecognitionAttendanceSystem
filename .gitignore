@@ -38,7 +38,7 @@ frontend/build/
 
 # Ignore tracking of images
 backend/models/known_faces/
-backend/app.py
+backend/firebase/firebase_credentials.json
 
 # Ignore editor and OS files
 .DS_Store
